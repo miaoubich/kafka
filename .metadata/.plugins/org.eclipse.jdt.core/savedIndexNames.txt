@@ -1,0 +1,7 @@
+INDEX VERSION 1.132+C:\Users\miaou\Documents\workspace-kafka-microservices\.metadata\.plugins\org.eclipse.jdt.core
+1769276339.index
+1865797976.index
+2979634803.index
+3313465705.index
+715374721.index
+1629028613.index
