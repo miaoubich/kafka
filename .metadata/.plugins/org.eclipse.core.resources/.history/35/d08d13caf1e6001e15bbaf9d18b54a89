@@ -1,5 +1,0 @@
-package net.miaoubich.orderservice.config;
-
-public class KafkaTopicConfig {
-
-}
