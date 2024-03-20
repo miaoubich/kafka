@@ -162,3 +162,4 @@
 2024-03-20 15:48:35,801 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\miaou\Documents\workspace-kafka-microservices\order-service\src\test\resources
 2024-03-20 15:48:38,968 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-03-20 15:48:39,137 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-20 15:48:39,141 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\miaou\Documents\workspace-kafka-microservices\order-service\src\test\resources
