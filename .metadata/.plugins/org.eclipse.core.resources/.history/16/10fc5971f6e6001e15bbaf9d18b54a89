@@ -1,0 +1,5 @@
+package net.miaoubich.orderservice.kafka;
+
+public class OrderProducer {
+
+}
