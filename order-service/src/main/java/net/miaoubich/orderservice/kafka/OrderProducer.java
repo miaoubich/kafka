@@ -20,7 +20,7 @@ public class OrderProducer {
 	private NewTopic topic;
 	
 	public void sendMessage(OrderEvent event) {
-		log.info("Order Event => %s", event.toString());
+		log.info("Order Event => " + event.toString());
 		
 		//create message
 		Message<OrderEvent> message = MessageBuilder
