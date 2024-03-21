@@ -19,12 +19,12 @@ public class OrderProducer {
 	private final KafkaTemplate<String, OrderEvent> kafkaTemplate;
 	private NewTopic topic;
 	
-	public void sendMessage(OrderEvent event) {
-		log.info("Order Event => " + event.toString());
+	public void sendMessage(OrderEvent orderEvent) {
+		log.info("Order Event => " + orderEvent.toString());
 		
 		//create message
 		Message<OrderEvent> message = MessageBuilder
-						.withPayload(event)
+						.withPayload(orderEvent)
 						.setHeader(KafkaHeaders.TOPIC, topic.name())
 						.build();
 		kafkaTemplate.send(message);
