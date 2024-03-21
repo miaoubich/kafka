@@ -8,9 +8,9 @@ import org.springframework.stereotype.Service;
 import net.miaoubich.basedomains.dto.OrderEvent;
 
 @Service
-public class OrderConsumer {
+public class EmailConsumer {
 
-	private static final Logger logger = LoggerFactory.getLogger(OrderConsumer.class);
+	private static final Logger logger = LoggerFactory.getLogger(EmailConsumer.class);
 	
 	@KafkaListener(topics = "${spring.kafka.topic.name}", groupId = "${spring.kafka.consumer.group-id}")
 	public void consume(OrderEvent orderEvent) {
