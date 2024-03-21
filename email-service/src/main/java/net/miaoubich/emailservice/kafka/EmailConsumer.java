@@ -1,4 +1,4 @@
-package net.miaoubich.stockservice.kafka;
+package net.miaoubich.emailservice.kafka;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
